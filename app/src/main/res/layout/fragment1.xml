@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".Frag1">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombtn"
+        android:fontFamily="@font/one"
+        android:padding="11dp"
+        android:text="@string/user_info"
+        android:textSize="23sp"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/two"
+        android:padding="11dp"
+        android:text="@string/user_info"
+        android:textSize="23sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/be" />
+    <TextView
+    android:id="@+id/textView3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/two"
+    android:padding="11dp"
+    android:text="        1인가구의 건강관리 심각성 자료"
+    android:background="@drawable/custombtn"
+    android:textSize="23sp"/>
+
+    <ImageView
+        android:id="@+id/imvv2"
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:src="@drawable/s0" />
+    <Button
+        android:id="@+id/change_bu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다 음" />
+
+
+
+</LinearLayout>

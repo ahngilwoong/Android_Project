@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".Frag4">
+
+
+    <TextView
+        android:id="@+id/tV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombtn"
+        android:fontFamily="@font/one"
+        android:padding="11dp"
+        android:text="@string/frag4_info"
+        android:textSize="23sp"/>
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/bul"
+            android:layout_width="72dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/two"
+            android:text="    불면"
+            android:textSize="18sp" />
+        <RadioButton
+            android:id="@+id/bul_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"
+            />
+
+        <RadioButton
+            android:id="@+id/bul_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+        <RadioButton
+            android:id="@+id/bul_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+
+        <RadioButton
+            android:id="@+id/bul_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"/>
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/radio_group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/sim"
+            android:layout_width="72dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/two"
+            android:text=" 심장 박동"
+            android:textSize="18sp" />
+        <RadioButton
+            android:id="@+id/sim_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"
+            />
+
+        <RadioButton
+            android:id="@+id/sim_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+        <RadioButton
+            android:id="@+id/sim_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+
+        <RadioButton
+            android:id="@+id/sim_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"/>
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/radio_group3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/face"
+            android:layout_width="72dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/two"
+            android:text=" 얼굴 경련"
+            android:textSize="18sp" />
+        <RadioButton
+            android:id="@+id/face_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"
+            />
+
+        <RadioButton
+            android:id="@+id/face_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+        <RadioButton
+            android:id="@+id/face_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+
+        <RadioButton
+            android:id="@+id/face_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"/>
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/radio_group4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/hyun"
+            android:layout_width="72dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/two"
+            android:text="   현기증"
+            android:textSize="18sp" />
+        <RadioButton
+            android:id="@+id/hyun_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"
+            />
+
+        <RadioButton
+            android:id="@+id/hyun_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+        <RadioButton
+            android:id="@+id/hyun_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+
+        <RadioButton
+            android:id="@+id/hyun_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"/>
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/radio_group5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ddam"
+            android:layout_width="72dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/two"
+            android:text=" 땀자주남"
+            android:textSize="18sp" />
+        <RadioButton
+            android:id="@+id/ddam_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"
+            />
+
+        <RadioButton
+            android:id="@+id/ddam_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+        <RadioButton
+            android:id="@+id/ddam_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+
+        <RadioButton
+            android:id="@+id/ddam_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"/>
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/radio_group6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/gam"
+            android:layout_width="72dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/two"
+            android:text=" 감각예민"
+            android:textSize="18sp" />
+        <RadioButton
+            android:id="@+id/gam_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"
+            />
+
+        <RadioButton
+            android:id="@+id/gam_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+        <RadioButton
+            android:id="@+id/gam_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+
+        <RadioButton
+            android:id="@+id/gam_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"/>
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/radio_group7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/eyes"
+            android:layout_width="72dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/two"
+            android:text=" 눈의피로"
+            android:textSize="18sp" />
+        <RadioButton
+            android:id="@+id/eyes_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"
+            />
+
+        <RadioButton
+            android:id="@+id/eyes_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+        <RadioButton
+            android:id="@+id/eyes_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+
+        <RadioButton
+            android:id="@+id/eyes_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"/>
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/radio_group8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/byun"
+            android:layout_width="72dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/two"
+            android:text="    변비"
+            android:textSize="18sp" />
+        <RadioButton
+            android:id="@+id/byun_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"
+            />
+
+        <RadioButton
+            android:id="@+id/byun_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+        <RadioButton
+            android:id="@+id/byun_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp" />
+
+
+        <RadioButton
+            android:id="@+id/byun_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:fontFamily="@font/two"
+            android:layout_marginEnd="10dp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/stsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frag_btn1" />
+
+    <TextView
+        android:id="@+id/tV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombtn"
+        android:fontFamily="@font/one"
+        android:padding="11dp"
+        android:text="결과가 나타나는 곳 입니다."
+        android:textSize="23sp"/>
+
+
+
+
+</LinearLayout>

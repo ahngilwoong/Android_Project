@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/first"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:background="@drawable/custombtn"
+        android:fontFamily="@font/two"
+        android:padding="13dp"
+        android:text="   사용자의 신체적 기본정보를 \n              입력해주세요."
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/n1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="13dp"
+        android:hint="이름"
+        android:fontFamily="@font/two"
+        android:inputType="textPersonName"
+        android:privateImeOptions="defaultInputmode=korean"
+        />
+
+    <EditText
+        android:id="@+id/n2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="13dp"
+        android:hint="나이"
+        android:fontFamily="@font/two"
+        android:inputType="textPersonName" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/Male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/two"
+            android:padding="13dp"
+            android:text="남성"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/Female"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/two"
+            android:text="여성"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/n3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="신장"
+        android:fontFamily="@font/two"
+        android:padding="13dp"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/n4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="체중"
+        android:fontFamily="@font/two"
+        android:padding="13dp"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:fontFamily="@font/two"
+        android:background="@drawable/custombtn2"
+        android:textSize="20sp"
+        android:text="완 료"
+        />
+
+
+</LinearLayout>

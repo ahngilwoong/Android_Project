@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".Frag2">
+    <TextView
+        android:id="@+id/frag2TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombtn"
+        android:fontFamily="@font/one"
+        android:padding="11dp"
+        android:text="@string/frag_2"
+        android:textSize="23sp"/>
+
+    <ImageView
+        android:id="@+id/change_img"
+        android:layout_width="match_parent"
+        android:layout_height="369dp"
+        android:src="@drawable/one" />
+
+    <Button
+        android:id="@+id/change_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다음" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/frag_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="13dp"
+            android:hint="이미지 중 안 보인 이미지수."
+            android:fontFamily="@font/two"
+            android:inputType="textPersonName"
+            android:privateImeOptions="defaultInputmode=korean"
+            />
+
+
+        <Button
+            android:id="@+id/frag_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="확인" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/frag2_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombtn"
+        android:fontFamily="@font/one"
+        android:padding="11dp"
+        android:text="결과가 나타나는 곳 입니다."
+        android:textSize="23sp"/>
+
+
+
+</LinearLayout>
